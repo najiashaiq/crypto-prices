@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+ 
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+ 
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  .page {
+    padding: 20px;
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 60px;
+  }
+  
+  .currencies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .currencies a {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .currencies a:hover {
+    background-color: #555;
+  }
+  
+  
+  .price {
+    text-align: center;
+  }
+  
+  .price h1 {
+    font-size: 2em;
+  }
+  
+  .price h2 {
+    font-size: 1.5em;
+    color: green;
+  }
